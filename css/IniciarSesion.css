@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../img/background-iniciar-sesion.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Contenedor del formulario */
+.contenedor-iniciar-sesion {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título */
+.contenedor-iniciar-sesion h2 {
+    color: #2E7D32;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Campos de formulario */
+.contenedor-iniciar-sesion input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+
+/* Botón de enviar */
+.contenedor-iniciar-sesion button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  
+}
+
+
+/* Enlaces */
+.enlaces-form {
+    margin-top: 20px;
+}
+
+.olvidocontraseña {
+    display: block;
+    color: #2E7D32;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+
+.boton-volver {
+    display: inline-block;
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
